@@ -14,10 +14,17 @@ function GuessWord(word){
         let wordIndex = new Letter(word[wordIndex]);
         this.guessWordArr.push(letter);  
     }
-    
+
 // This should call the function on each letter object (the first function defined in Letter.js) 
 // that displays the character or an underscore and concatenate those together.
+    this.display = function(){
+        letterDisplay = '';
+        for (let displayIndex = 0; displayIndex < this.guessWordArr.length; displayIndex++) {
+            letterDisplay += this.guessWordArr[displayIndex] + ' ';
+        }
+        console.log(letterDisplay);
+    };
+}
 
 // A function that takes a character as an argument and calls the guess function on 
 // each letter object (the second function defined in Letter.js)
-}
