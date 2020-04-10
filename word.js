@@ -28,3 +28,10 @@ function GuessWord(word){
 
 // A function that takes a character as an argument and calls the guess function on 
 // each letter object (the second function defined in Letter.js)
+this.userGuess = function(input) {
+    for (let guessIndex = 0; guessIndex < this.guessWordArr.length; guessIndex++) {
+      this.guessWordArr[guessIndex].guessedKey(input);
+    }
+  };
+
+module.exports = GuessWord;
