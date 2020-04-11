@@ -6,32 +6,36 @@ var Letter = require("./letter.js")
 // is attempting to guess. That means the constructor should define:
 
 // An array of new Letter objects representing the letters of the underlying word
-function GuessWord(word){
-    this.guessWordArr = [];
+function Word(word){
+    this.word = word;
+    this.letters = [];
 
 // A function that returns a string representing the word. 
-    for (let wordIndex = 0; wordIndex < word.length; wordIndex++) {
-        let wordIndex = new Letter(word[wordIndex]);
-        this.guessWordArr.push(letter);  
+    this.makeLetters = function() {
+        let wordArr = this.word.split("");
+        for(let i = 0; i < wordArr.length; i++) {
+            let newLetter = new Letter(wordArr[i]);
+            this.letters.push(newLetter);
+        }
     }
 
 // This should call the function on each letter object (the first function defined in Letter.js) 
 // that displays the character or an underscore and concatenate those together.
-    this.display = function(){
-        letterDisplay = '';
-        for (let displayIndex = 0; displayIndex < this.guessWordArr.length; displayIndex++) {
-            letterDisplay += this.guessWordArr[displayIndex] + ' ';
-        }
-        console.log(letterDisplay);
-    };
-}
+    this.makeGuess = function(guess) {
+        this.letters.forEach(letter => {
+        letter.checkLetter(guess);
+        });
+    }
+
 
 // A function that takes a character as an argument and calls the guess function on 
 // each letter object (the second function defined in Letter.js)
-this.userGuess = function(input) {
-    for (let guessIndex = 0; guessIndex < this.guessWordArr.length; guessIndex++) {
-      this.guessWordArr[guessIndex].guessedKey(input);
+    this.update = function() {
+        let printedWord = "";
+        this.letters.forEach(letter => {
+        printedWord += letter.getCharacter() + " ";
+        });
+        return printedWord;
     }
-  };
-
-module.exports = GuessWord;
+}
+module.exports = Word;
