@@ -6,7 +6,7 @@ Constructor Word Guess is a command-line game using constructor functions.
 
 
 ## Future Enhancements:
-Future developments would include creating front-end with a simple, user friendly UI.
+Future developments would include creating a front-end with a simple, user friendly UI.
 
 ## Technologies:
 -	Javascript
@@ -18,12 +18,12 @@ Future developments would include creating front-end with a simple, user friendl
 
 ## How to run the app:
 
-Enter `node index.js` in the command line to start the Game.
-Prompts will be provided to guess letters, see how many guesses remain, and to confirm if you won or lost.
+Enter `node index.js` in the command line to start the Game. <br>
+Prompts will be provided to guess letters, see how many guesses remain, and to confirm if you won or lost. <br>
 Likewise, the game will prompt if you would like to play again or exit.
 
 <video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
+  <source src="readMeVideo.mov" type="video/mov">
 Your browser does not support the video tag.
 </video>
 
