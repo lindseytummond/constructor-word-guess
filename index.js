@@ -32,12 +32,6 @@ function init() {
     guesses = 10;
     if(selectedCoffees.length < coffeeDrinks.length) {
         selectedWord = getWord();
-    // } else {
-    //   // WIN CONDITION
-    //   console.log("------------------------------------------");
-    //   console.log("Congrats! You must love coffee!");
-    //   console.log("------------------------------------------");
-    //   continuePrompt();
     }
     if(selectedWord) {
       word = new Word(selectedWord);
