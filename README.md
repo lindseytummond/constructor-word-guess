@@ -27,3 +27,4 @@ Likewise, the game will prompt if you would like to play again or exit.
 Your browser does not support the video tag.
 </video>
 
+![game start](reamMeVideo.gif)
