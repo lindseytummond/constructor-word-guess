@@ -23,5 +23,5 @@ Prompts will be provided to guess letters, see how many guesses remain, and to c
 Likewise, the game will prompt if you would like to play again or exit.
 
 
-## Example of how the game functions::
+## Example of how the game functions:
 ![Alt Text](https://media.giphy.com/media/YP1I99DV0ACizS42Dv/giphy.gif)
