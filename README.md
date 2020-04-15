@@ -22,9 +22,6 @@ Enter `node index.js` in the command line to start the Game. <br>
 Prompts will be provided to guess letters, see how many guesses remain, and to confirm if you won or lost. <br>
 Likewise, the game will prompt if you would like to play again or exit.
 
-<video width="320" height="240" controls>
-  <source src="readMeVideo.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
 
+## Example of how the game functions::
 ![Alt Text](https://media.giphy.com/media/YP1I99DV0ACizS42Dv/giphy.gif)
