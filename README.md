@@ -2,7 +2,7 @@
 
 
 ## Overview: 
-Constructor Word Guess is a command-line game using constructor functions.
+Constructor Word Guess is a command-line (no client side) game using constructor functions.
 
 
 ## Future Enhancements:
