@@ -1,9 +1,13 @@
-# Constructor Word Guess Game
+# Coffee Drink Constructor Word Guess Game
 
+### Overview: 
+Coffee Drink Constructor Word Guess is a command-line (no client side) game using constructor functions.
 
-## Overview: 
-Constructor Word Guess is a command-line (no client side) game using constructor functions.
-
+## Author:
+Lindsey Tummond
+- <a href="https://lindseytummond.github.io/portfolio/" target="_blank"> Portfolio </a>
+- <a href="https://github.com/lindseytummond" target="_blank"> GitHub </a>
+- <a href="https://www.linkedin.com/in/lindsey-tummond-b86aa341/" target="_blank"> LinkedIn </a>
 
 ## Future Enhancements:
 Future developments would include creating a front-end with a simple, user friendly UI.
@@ -14,7 +18,6 @@ Future developments would include creating a front-end with a simple, user frien
 -	NPM package
     -	Inquirer
     -	Prompt
-
 
 ## How to run the app:
 
