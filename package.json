@@ -18,7 +18,7 @@
   "homepage": "https://github.com/lindseytummond/constructor-word-guess#readme",
   "dependencies": {
     "inquirer": "^7.1.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "prompt": "^1.0.0"
   }
 }
